@@ -1,67 +1,148 @@
 {
   "orders": [
     {
-      "id": 1,
-      "userId": 1,
-      "client": "Jude Milhon",
+      "client": "Luz",
+      "mesa": "3",
       "products": [
         {
-          "qty": 1,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "cantidad": 4,
+          "pricetotal": 4000
         },
         {
-          "qty": 1,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
+          "id": 2,
+          "name": "Café americano",
+          "price": "400",
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "cantidad": 4,
+          "pricetotal": 1600
+        }
+      ],
+      "status": "done",
+      "dateEntry": 1695610051548,
+      "id": 1
+    },
+    {
+      "client": "luz",
+      "mesa": "1",
+      "products": [
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": "400",
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "cantidad": 3,
+          "pricetotal": 1200
+        }
+      ],
+      "status": "done",
+      "dateEntry": 1695786322070,
+      "id": 2
+    },
+    {
+      "client": "Jose manuel",
+      "mesa": "4",
+      "products": [
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": "400",
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "cantidad": 1,
+          "pricetotal": 400
+        },
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "cantidad": 2,
+          "pricetotal": 2000
+        }
+      ],
+      "status": "done",
+      "dateEntry": 1695788162302,
+      "id": 3
+    },
+    {
+      "client": "Lisa vazquez",
+      "mesa": "5",
+      "products": [
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": "400",
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "cantidad": 2,
+          "pricetotal": 800
+        }
+      ],
+      "status": "done",
+      "dateEntry": 1695788191401,
+      "id": 4
+    },
+    {
+      "client": "Santiago morales",
+      "mesa": "2",
+      "products": [
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": "400",
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "cantidad": 2,
+          "pricetotal": 800
+        }
+      ],
+      "status": "done",
+      "dateEntry": 1695788726486,
+      "id": 5
+    },
+    {
+      "client": "asa",
+      "mesa": "3",
+      "products": [
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": "400",
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "cantidad": 1,
+          "pricetotal": 400
+        },
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "cantidad": 1,
+          "pricetotal": 1000
         }
       ],
       "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "client": "Katie Bouman",
-      "products": [
-        {
-          "qty": 2,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
+      "dateEntry": 1696019459895,
+      "id": 6
     }
   ],
   "products": [
@@ -76,32 +157,61 @@
     {
       "id": 2,
       "name": "Café americano",
-      "price": 500,
+      "price": "400",
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
       "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
-    {
-      "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
     }
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "role": "admin",
-      "id": 1
+      "email": "Marzu@gmail.com",
+      "password": "$2a$10$5saEiH.Dv7q5k4OlZ/H.7et8XhD7C0E7n7.k5GVgYfEE6/hTKs0LK",
+      "role": "cocinero",
+      "name": "Marzu",
+      "id": 6
     },
     {
-      "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "role": "admin",
-      "id": 2
+      "email": "mari@gmail.com",
+      "password": "$2a$10$TQvkh0/r8zrah2HqdnUsouzEnJzWKLGU5HvEWsVHm7eNe2706/zxm",
+      "role": "administrador",
+      "name": "luz maria",
+      "id": 14
+    },
+    {
+      "email": "esther@gmail.com",
+      "password": "$2a$10$WF/qjkDaR7s96GFqmFYYqevaurCTRq9Hq5YGLn2Kt11lcilzeiGsu",
+      "role": "administrador",
+      "name": "Esther",
+      "id": 21
+    },
+    {
+      "email": "vic@gmail.com",
+      "password": "$2a$10$YttoMcgu7/SZGBXMMV3OPehBxXHv7pdZqJM3UN7H4md3o.tgx/d7i",
+      "role": "cocinero",
+      "name": "ticohola",
+      "id": 23
+    },
+    {
+      "email": "lux@gmail.com",
+      "password": "$2a$10$RHS7sYFTz1i4y/HyDip7aOkpSpArdgcBeSp8xPsojG9cTXJqSXLxG",
+      "role": "cocinero",
+      "name": "luzma",
+      "id": 24
+    },
+    {
+      "email": "buenq@gmail.com",
+      "password": "$2a$10$mlm1kEI8Mx6NVIeWD6f2EuYJis5a/tOKcAjH6gNsoea407LwBPEiC",
+      "role": "mesero",
+      "name": "buena",
+      "id": 25
+    },
+    {
+      "email": "luz@gmail.com",
+      "password": "$2a$10$k7eBUXjZzbmYJcvx7yyObODybdFaDkEI0qgCrKcQnm7pYkcx776Wi",
+      "role": "mesero",
+      "name": "luz",
+      "id": 26
     }
   ]
 }
