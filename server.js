@@ -16,14 +16,7 @@ const rules = auth.rewriter(JSON.parse(fs.readFileSync(path.join(__dirname, 'rou
 app.db = router.db
 
 // You must apply the auth middleware before the router
-// app.use(cors()); // Habilita COR
-app.enableCors({
-    origin: '*',
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    preflightContinue: false,
-    optionsSuccessStatus: 204,
-    allowedHeaders: ['Authorization', 'content-type'],
-});
+app.use(cors()); // Habilita COR
 
 app.use(middlewares);
 app.use(rules);
