@@ -3,6 +3,7 @@ const path = require('path');
 const jsonServer = require('json-server');
 const auth = require('json-server-auth');
 const middlewares = jsonServer.defaults()
+const cors = require('cors'); // Importa el middleware CORS
 
 const app = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, 'db.json'));
@@ -15,6 +16,7 @@ const rules = auth.rewriter(JSON.parse(fs.readFileSync(path.join(__dirname, 'rou
 app.db = router.db
 
 // You must apply the auth middleware before the router
+app.use(cors()); // Habilita CORS
 app.use(middlewares);
 app.use(rules);
 app.use(auth);
